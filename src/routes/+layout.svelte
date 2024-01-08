@@ -9,6 +9,8 @@
 	import { onMount } from 'svelte';
 	import { customBackground } from '$lib/store';
 	import { Email } from '$lib/Constants';
+	import Analytics from '$lib/components/Analytics.svelte';
+	
 	// import routes from '$lib/NavRoutes';
 
 	let copied = false;
@@ -78,6 +80,9 @@
 		</div>
 	</div>
 {/if}
+
+<slot />
+<Analytics />
 
 <Modal>
 	<div slot="content" class="modalContainer">

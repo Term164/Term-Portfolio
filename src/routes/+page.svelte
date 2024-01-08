@@ -3,7 +3,14 @@
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
-	import { modalOpened } from '$lib/store';
+	import { modalOpened, analyticsStore } from '$lib/store';
+	const new_event = {
+	id: "any-random-id",
+	data: {}, //anything you want to send to GA,
+	event: "name-of-your-event",
+	type: "event",
+	}
+	analyticsStore.update(existing_events => [ ...existing_events, new_event ]) 
 </script>
 
 <svelte:head>
