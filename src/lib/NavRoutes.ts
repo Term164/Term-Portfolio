@@ -12,9 +12,13 @@ const routes = [
 		label: 'About'
 	},
 	{
-		href: '/blog',
-		label: 'Blog'
+		href: '/privacy-policy',
+		label: 'Privacy Policy'
 	}
+	// {
+	// 	href: '/blog',
+	// 	label: 'Blog'
+	// }
 ];
 
 export default routes;

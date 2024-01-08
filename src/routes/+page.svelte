@@ -2,15 +2,15 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
-	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
+	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
 	import { modalOpened } from '$lib/store';
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Main page</title>
+	<title>Jani Bangiev - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Gianmarco a Front-End Developer 💻 based in Italy</h1>
+	<h1>Hi!✋ <br /> I'm Jani Bangiev a Full-Stack Developer 💻 based in Slovenia</h1>
 	<div class="icons">
 		<div
 			role="button"
@@ -28,7 +28,7 @@
 		</div>
 
 		<a
-			href="https://github.com/Ladvace"
+			href="https://github.com/Term164"
 			aria-label="GitHub"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -38,7 +38,7 @@
 			</div>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/ladvace/"
+			href="https://www.linkedin.com/in/jani-bangiev-510366220/"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -48,13 +48,13 @@
 			</div>
 		</a>
 		<a
-			href="https://medium.com/@ladvace"
-			aria-label="Medium"
+			href="https://twitter.com/Term164"
+			aria-label="Twitter"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			<div class="icon">
-				<FaMedium />
+				<FaTwitter />
 			</div>
 		</a>
 	</div>

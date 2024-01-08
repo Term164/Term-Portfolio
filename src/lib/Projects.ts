@@ -1,23 +1,37 @@
 const projects = [
 	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
+		title: 'Ri-100',
+		technologies: ['Bootstrap', 'Javascript', 'PHP', 'GA'],
 		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
+			'A vacation rental website for Ri-100 Apartments.',
+		url: 'https://ri100.si'
 	},
 	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
+		title: 'Apartmaji Lavanda Fiesa',
+		technologies: ['Bootstrap', 'Javascript', 'PHP', 'GA'],
 		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
+			'A vacation rental website for Lavanda Fiesa Apartments.',
+		url: 'https://apartmaji-lavanda-fiesa.si'
 	},
 	{
-		title: 'Easy-react-carousel',
-		technologies: ['React', 'NodeJs'],
-		description: 'A simple carousel made in reactjs',
-		url: 'https://github.com/Ladvace/easy-react-carousel'
+		title: 'ExLibra',
+		technologies: ['Node.js', 'React', 'Firebase', 'Bootstrap'],
+		description:
+			'ExLibra is a book exchange platform for students in Slovenian universities.',
+		url: 'https://github.com/Term164/ExLibra'
+	},
+	{
+		title: 'PINS Compiler',
+		technologies: ['Java'],
+		description:
+			'A Compiler for the PINS 2022 language written in Java for the PINS class at the Faculty of Computer and Information Science in Ljubljana.',
+		url: 'https://github.com/Term164/PINS-Compiler'
+	},
+	{
+		title: 'Town-Planner',
+		technologies: ['WEBGL', 'Node.Js', 'Blender'],
+		description: 'Town planner is a city building/resource managment web game built with Javascript and WEBGL, made for a university course in computer graphics at FRI.',
+		url: 'https://github.com/Term164/town-planner'
 	}
 ];
 

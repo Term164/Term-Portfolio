@@ -3,18 +3,16 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — About</title>
+	<title>Jani Bangiev — About</title>
 </svelte:head>
 
 <div class="container">
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Italy and currently working
-			as a freelancer and coding in Node.js, React.js (and other web technologies) and Go(lang), but
-			I tend to learn and use the best technology and approach to best solve the problem I'm facing.
+			I'm a software developer who loves to turn ideas into real-world applications using code. I've been coding since I was a kid and I'm always looking for new challenges and ways to learn more. I'm currently working as a software developer at ISL Online and I also do some freelance work on the side. I'm good at using TypeScript, node.js, and Svelte, but I'm also always up for trying new things. I'm passionate about creating user-friendly, high-performance web apps that people will actually want to use.
 		</p>
+		<p>If you have a cool web development project in mind, let me know! I'd love to help you make it happen.</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}
 			<ul>

@@ -1,17 +1,17 @@
 <script>
 	import projects from '$lib/Projects';
+	import { modalOpened } from '$lib/store';
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — Projects</title>
+	<title>Jani Bangiev — Projects</title>
 </svelte:head>
 
 <div class="projectContainer">
 	<div class="projects">
 		<h1>Projects</h1>
 		<p class="note">
-			Note: most of my projects are under NDA so I am unable to share those projects. If there is
-			anything you would like to see further, please feel free to contact me.
+			Note: I am available to build websites. <span class="contact" role="button" tabindex="0" on:keypress={() => {modalOpened.set(true)}} on:click={() => {modalOpened.set(true)}} >Contact</span> me today to discuss your project.
 		</p>
 		{#each projects as project}
 			<div class="project">
@@ -40,6 +40,12 @@
 </div>
 
 <style>
+	.contact {
+		text-decoration: underline;
+		color: gold;
+		cursor: pointer;
+	}
+
 	.projectContainer {
 		width: 100%;
 		max-width: 900px;
