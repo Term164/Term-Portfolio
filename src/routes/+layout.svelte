@@ -81,7 +81,6 @@
 	</div>
 {/if}
 
-<slot />
 <Analytics />
 
 <Modal>
