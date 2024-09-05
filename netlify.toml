@@ -3,14 +3,3 @@ command = "npm run build"
 publish = "build/"
 functions = "functions/"
 
-[[redirects]]
-from = "https://wardle.term.si/*"
-to = "https://wardlegame.com/:splat"
-status = 301
-force = true
-
-[[redirects]]
-from = "http://wardle.term.si/*"
-to = "https://wardlegame.com/:splat"
-status = 301
-force = true
